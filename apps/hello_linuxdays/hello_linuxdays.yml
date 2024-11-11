@@ -20,7 +20,7 @@ spec:
     repoURL: https://github.com/sikalabs/charts.git
     path: charts/hello-world
     helm:
-      valuesObject:
+      values: |
         host: localhost
         image: sikalabs/hello-world-server:linuxdays
         replicas: 1
