@@ -21,4 +21,7 @@ argocd-linuxdays-example
       namespace.yml
   \appsets
   app_of_apps.yaml
+
+Firstly create ArgoCD in k8s (kubectl apply -k . -n argocd   in appropriate folder)
+Secondly apply app_of_apps.yaml (kubectl apply -f app.... -n argocd)
 ```
