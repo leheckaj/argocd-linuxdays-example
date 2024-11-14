@@ -10,12 +10,15 @@ Folder plan:
 ```bash
 argocd-linuxdays-example
   \apps
-    \argocd --- this folder
+    \argocd
+      \clusters
+      \patches   -- also for service
+      \repos
+      \projects
+      app_of_apps.yml
+      ingress.yml
+      kustomization.yml
+      namespace.yml
   \appsets
-  \clusters
-  \patches
-  \repos
   app_of_apps.yaml
-  namespace.yaml
-  ingress.yaml
 ```
