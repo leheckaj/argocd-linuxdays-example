@@ -14,8 +14,8 @@ argocd-linuxdays-example
     \appsets  -- variables
     \clusters -- list of clusters
     \patches   -- also for service
-    \repos   --- Is needed?
-    \projects
+    \repos   -- Strongly needed
+    \projects  -- projects
     app_of_apps.yml
     ingress.yml
     kustomization.yml -- relation to projects, Installation, clusters, APPs, ...
