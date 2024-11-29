@@ -6,6 +6,8 @@ ArgoCD  1.6.2 with k3d working state:
 
 https://github.com/leheckaj/argocd-linuxdays-example/tree/a6b8902596a3e7ed78c33dcbccf2a6468dc14e6e
 
+https://github.com/kostis-codefresh/many-appsets-demo
+
 Folder plan:
 ```bash
 argocd-linuxdays-example
