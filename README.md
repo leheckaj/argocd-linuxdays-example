@@ -17,8 +17,7 @@ argocd-linuxdays-example
     \repos   -- Strongly needed
     \projects  -- projects
     app_of_apps.yml
-    ingress.yml
-    kustomization.yml -- relation to projects, Installation, clusters, APPs, ...
+    kustomization.yml -- relation to projects, Installation, clusters, APPs, ... CREATES ARGOCD
     namespace.yml --maybe not
 
 Firstly create ArgoCD in k8s (kubectl apply -k . -n argocd   in appropriate folder)
