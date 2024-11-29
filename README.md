@@ -10,7 +10,7 @@ Folder plan:
 ```bash
 argocd-linuxdays-example
   \argocd
-    \app -- ArgoCD-self  APP1 Example1  VaultAgent GitlabAgent etc.
+    \app -- ArgoCD-self  APP1 Example1  VaultAgent GitlabAgent MonitoringAgent etc.
     \appsets  -- variables
     \clusters -- list of clusters
     \patches   -- also for service
